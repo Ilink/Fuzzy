@@ -19,6 +19,8 @@ function ls(str_a, str_b){
 		col[0] = i;
 		for(j = 0; j < b_length; j++){
 			// calc something here
+			del = prev_col[j];
+			ins = col[j-1];
 
 
 			// advance
